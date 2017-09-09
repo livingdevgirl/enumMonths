@@ -1,6 +1,7 @@
 package com;
 import com.example.common.Month;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,19 +12,23 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+List<String> months = new ArrayList<>();
 
         for (Month month : Month.values()
                 ) {
 
-            System.out.println((month.getEnglishName()));
+
+           months.add(month.getEnglishName());
         }
+        System.out.println(months);
         System.out.println("choose a month out of the year!");
         String userMonth = scanner.nextLine().toUpperCase();
         for (Month month : Month.values()) {
             if (!userMonth.equals(month.getEnglishName().toUpperCase())) {
-
             } else {
                 System.out.println("you have selected " + userMonth);
+                break;
+                //add the months for given month and use a switch statement to return that month and the months following in the year.
             }
 
         }
