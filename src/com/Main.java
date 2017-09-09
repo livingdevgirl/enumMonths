@@ -36,22 +36,22 @@ public class Main {
 
                     switch (month) {
                         case JANUARY:
-                            System.out.println(" February, March, April, May, June, July, September, October, November and December are left in this current year.");
+                            System.out.println(" February, March, April, May, June, July, August, September, October, November and December are left in this current year.");
                             break;
                         case FEBRUARY:
-                            System.out.println(" March, April, May, June, July, September, October, November and December are left in this current year.");
+                            System.out.println(" March, April, May, June, July, August, September, October, November and December are left in this current year.");
                             break;
                         case MARCH:
-                            System.out.println(" April, May, June, July, September, October, November and December are left in this current year.");
+                            System.out.println(" April, May, June, July, August, September, October, November and December are left in this current year.");
                             break;
                         case APRIL:
-                            System.out.println(" May, June, July, September, October, November and December are left in this current year.");
+                            System.out.println(" May, June, July, August, September, October, November and December are left in this current year.");
                             break;
                         case MAY:
-                            System.out.println(" June, July, September, October, November and December are left in this current year.");
+                            System.out.println(" June, July, August, September, October, November and December are left in this current year.");
                             break;
                         case JUNE:
-                            System.out.println(" July, September, October, November and December are left in this current year.");
+                            System.out.println(" July, August, September, October, November and December are left in this current year.");
                             break;
                         case JULY:
                             System.out.println(" August, September, October, November and December are left in this current year.");
